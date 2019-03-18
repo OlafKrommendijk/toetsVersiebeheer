@@ -1,0 +1,20 @@
+cd naar juiste map
+
+git status krijg je foutmelding
+gebruik git init
+git remote add origin link naar repo
+git pull origin master
+touch index.html
+git add index.html
+git commit -m "index pagina toegevoegd"
+git push origin master
+git add index.html
+git commit -m "citaat toegevoegd"
+git branch zandbank
+git checkout zandbank
+git add * && git commit -m "foto toegevoegd"
+git checkout master
+git add index.html && git commit -m "citaat van de dag"
+git checkout zandbak
+git rebase master
+git checkout master
